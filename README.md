@@ -23,14 +23,17 @@ This guide provides step-by-step instructions for installing Klipper firmware on
 3. **Configure Klipper for Ender 6**
    - Customize the `printer.cfg` file based on Ender 6’s specifications.
    - Modify settings like stepper motor configurations, temperature sensors, and max speed.
-   - add bl touch in printer.cfg the one i have provided has the correct settings if you are using the Bltouch with the mount i provided.
+   - add bl touch in printer.cfg the one i have provided has the correct settings if you are using the Bltouch with the mount i provided. once added i did some bltouch sanity checks to make sure everything worked 
+     corrctly
+     ![BlTouch](Resources/bltouch_checks.png)
 
 4. **Tuning & Testing**
    - Once installed, calibrate your printer’s settings within Klipper, including PID tuning and speed adjustments.
    - Test the setup by printing a calibration object.
 5. **issues i encounterd**
     - After installing the BL-Touch on my Micro Swiss extruder, I had to create a custom mount due to the limited space available. To accommodate the BL-Touch, I sacrificed some space on the print bed. This also        required me to relocate the purge line to ensure it remained within the print area.
-![Purge line adjustment](Resources/outOfRange.png) 
+![Purge line adjustment](Resources/outOfRange.png)
+    - The custom print.cfg file contains specific print parameters. In this file, I had to add the x_min function because I sacrificed some bed space to accommodate the BL-Touch
       
 
 ## Additional Resources
