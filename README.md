@@ -20,6 +20,7 @@ This guide provides step-by-step instructions for installing Klipper firmware on
 2. **Install Klipper**
    - Use the terminal to install Klipper on the Raspberry Pi.
    - Flash the Klipper firmware to your Ender 6 by configuring the printer's microcontroller.
+   - check Additional Resources for more info.
 
 3. **Configure Klipper for Ender 6**
    - Customize the `printer.cfg` file based on Ender 6’s specifications.
