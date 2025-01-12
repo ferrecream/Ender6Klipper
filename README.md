@@ -4,8 +4,8 @@ This guide provides step-by-step instructions for installing Klipper firmware on
 
 ## Prerequisites
 - **Creality Ender 6**
-- **Raspberry Pi (3 or 4 recommended)**
-- **OctoPrint / Fluidd / Mainsail** for Klipper management
+- **Raspberry Pi (3 or 4 recommended)** i personally like using the pi zero 2 W for this
+- **OctoPrint / Fluidd / Mainsail** for Klipper management 
 - **USB Cable** for connecting the printer to the Raspberry Pi
 - **BL TOUCH** for bed leveling
   
@@ -15,6 +15,7 @@ This guide provides step-by-step instructions for installing Klipper firmware on
 1. **Prepare the Raspberry Pi**
    - Install OctoPrint, Mainsail, or Fluidd on the Raspberry Pi to act as the printer's host.
    - Ensure the Pi and Ender 6 are connected via a reliable USB cable.
+   - detailed installation guide for Fluiddpi [here]
 
 2. **Install Klipper**
    - Use the terminal to install Klipper on the Raspberry Pi.
