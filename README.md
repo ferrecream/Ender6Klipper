@@ -31,7 +31,7 @@ This guide provides step-by-step instructions for installing Klipper firmware on
 5. **issues i encounterd**
     - since i installed the bl-touch on the micro swiss extruder there needed to be a custom mount because there is not a lot of space for the bl touch.
       So i had to give up some space from my bed inorder to install the bl touch. this also ment that i had to move the purge line because otherwise it was not in the print area.
-[Purge line adjustment](resources/.png) 
+![Purge line adjustment](Resources/outOfRange.png) 
       
 
 ## Additional Resources
